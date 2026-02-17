@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SpongeShell (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "SpongeShell (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
