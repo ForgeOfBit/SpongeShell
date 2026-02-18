@@ -4,10 +4,8 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="SpongeShell.Backend/SpongeShell.Backend.vcxproj">
-    <Platform Solution="*|ARM64" Project="x64" />
-  </Project>
-  <Project Path="SpongeShell/SpongeShell.App.csproj">
+  <Project Path="SpongeShell.Core/SpongeShell.Core.vcxproj" Id="3ecae202-b614-4448-a54b-a36a7c45cf8c" />
+  <Project Path="SpongeShell/SpongeShell.UI.csproj">
     <Platform Solution="*|ARM64" Project="ARM64" />
     <Platform Solution="*|x64" Project="x64" />
     <Platform Solution="*|x86" Project="x86" />
